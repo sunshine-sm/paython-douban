@@ -1,0 +1,17 @@
+import numpy as np
+
+print([[1, 2, 3], [2, 3, 4]])
+t1 = np.array([[1, 2, 3], [2, 3, 4]])
+print(t1)
+t2 = np.zeros((3, 4))
+print(t2)
+t3 = np.ones((3, 4))
+print(t3)
+t4 = np.empty((4, 5), dtype=int)
+print(t4)
+t5 = np.arange(1, 8, 1)
+print(t5)
+t6 = np.linspace(1, 9, 3)
+print(t6)
+t7 = np.random.rand(3, 5)
+print(t7)
