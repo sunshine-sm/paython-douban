@@ -1,3 +1,7 @@
+"""
+九九乘法表 - 导入到Excel
+"""
+
 import xlwt
 
 workbook = xlwt.Workbook(encoding='utf-8')
